@@ -1,0 +1,16 @@
+.report-form{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:15px;}
+.report-form label{color:#cbd5f5;padding-top:6px;}
+.report-form input{padding:8px;border-radius:6px;border:1px solid #1e293b;background:#020617;color:#e5e7eb;}
+.report-form select{padding:8px;border-radius:6px;border:1px solid #1e293b;background:#020617;color:#e5e7eb;}
+.report-form button{padding:8px 14px;border:none;border-radius:6px;background:#38bdf8;color:#020617;cursor:pointer;transition:0.2s;}
+.report-form button:hover{opacity:0.9;}
+
+.tabs{margin-bottom:20px;}
+.tab-btn{padding:10px 16px;margin-right:8px;border:none;border-radius:6px;background:#0f172a;color:#cbd5f5;cursor:pointer;transition:0.2s;}
+.tab-btn:hover{background:#1e293b;color:#38bdf8;}
+.tab-btn.active{background:#38bdf8;color:#020617;font-weight:600;}
+
+.tab-content{display:none;padding:20px;background:#020617;border-radius:12px;border:1px solid #1e293b;}
+.tab-content.active{display:block;}
+
+.report-result{margin-top:15px;color:#cbd5f5;}

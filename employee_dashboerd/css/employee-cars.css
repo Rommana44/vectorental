@@ -1,0 +1,95 @@
+.content {
+  padding: 30px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #cbd5f5;
+}
+
+/* Table */
+.cars-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #020617;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cars-table th, .cars-table td {
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.cars-table thead {
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.cars-table th {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cars-table tbody tr {
+  border-bottom: 1px solid #1e293b;
+  transition: background 0.2s ease;
+}
+
+.cars-table tbody tr:hover {
+  background: rgba(56, 189, 248, 0.08);
+}
+
+/* Status badges */
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status.active {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.status.rented {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+}
+
+.status.out {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+/* Buttons */
+.edit-btn, .delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.2s ease;
+}
+
+.edit-btn {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.edit-btn:hover {
+  background: #0ea5e9;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}

@@ -1,0 +1,72 @@
+.content {
+  padding: 30px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Table */
+.cars-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #020617;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cars-table th, .cars-table td {
+  padding: 14px 18px;
+  text-align: left;
+}
+
+.cars-table thead {
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.cars-table th {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.cars-table tbody tr {
+  border-bottom: 1px solid #1e293b;
+  transition: background 0.2s ease;
+}
+
+.cars-table tbody tr:hover {
+  background: rgba(56, 189, 248, 0.08);
+}
+
+/* Inputs & Select */
+.status-select, .price-input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: white;
+}
+
+.status-select:focus, .price-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+/* Save Button */
+.save-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  color: #020617;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.save-btn:hover {
+  background: #0ea5e9;
+}

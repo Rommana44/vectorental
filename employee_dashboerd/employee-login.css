@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('Gemini_Generated_Image_983j9g983j9g983j.png') center/cover no-repeat;
+  filter: brightness(0.4);
+  z-index: -1;
+}
+
+.login-container {
+  width: 380px;
+  padding: 40px;
+  background: rgba(17, 24, 39, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+  backdrop-filter: blur(10px);
+}
+
+.login-container h1 {
+  font-size: 32px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 30px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 15px;
+}
+
+.login-form input::placeholder {
+  color: #6b7280;
+}
+
+.login-form input:focus {
+  outline: 2px solid #38bdf8;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  border: none;
+  border-radius: 10px;
+  color: #020617;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.4);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn {from {opacity:0;transform:translateY(15px);} to {opacity:1;transform:translateY(0);}}

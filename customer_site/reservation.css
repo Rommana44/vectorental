@@ -1,0 +1,153 @@
+/* ===== Car Image ===== */
+.car-image {
+  width: 100%;
+  height: 250px;
+  padding: 0;
+  margin: 0 0 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+  background: #f3f4f6;
+}
+.car-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #1f2933;
+}
+
+/* ===== Top Bar ===== */
+.topbar {
+  background: #ffffff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.topbar h1 {
+  color: #facc15; /* Yellow */
+}
+
+.topbar span {
+  color: #6b7280;
+}
+
+/* ===== Filters ===== */
+.filters {
+  padding: 40px;
+}
+
+.filters h2 {
+  margin-bottom: 20px;
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+select {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+}
+
+select:focus {
+  outline: none;
+  border-color: #facc15;
+}
+
+/* ===== Buttons ===== */
+.search-btn {
+  background: #facc15;
+  color: #1f2933;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #eab308;
+}
+
+/* ===== Cars Section ===== */
+.cars {
+  padding: 40px;
+}
+
+.cars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* ===== Car Card ===== */
+.car-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s;
+}
+
+.car-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+.car-card h3 {
+  margin-bottom: 6px;
+}
+
+.car-card p {
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+/* ===== Status Badge ===== */
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.badge.active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* ===== Reserve Button ===== */
+.car-card button {
+  width: 100%;
+  padding: 10px;
+  background: #facc15;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.car-card button:hover {
+  background: #eab308;
+}
